@@ -1,52 +1,94 @@
 import './styles/main.scss'
+
 import logoTheSubstance from './assets/images/logo-theSubstance.svg';
+import logoAngelsEgg from './assets/images/logo-angelsEgg.png';
+import logoPerfectBlue from './assets/images/logo-perfectBlue.png';
+import logoReflexoesDeUmLiquidificador from './assets/images/logo-reflexoesDeUmLiquidificador.png';
+
+
 import backgroundTheSubstance from './assets/images/poster-theSubstance2.png';
+import posterAngelsEgg from './assets/images/poster-angelsEgg.jpg';
+import posterPerfectBlue from './assets/images/poster-perfectBlue.jpg';
+import posterReflexoes from './assets/images/poster-reflexoesDeUmLiquidificador.jpg';
+
 
 import Header from './components/header.tsx'
 
 function App() {
 
   return (
-    <>
-      <Header></Header>
-      
-      <section className="hero">
 
-        <img className="background" src={backgroundTheSubstance}/>
-        <img className="logo" src={logoTheSubstance} alt="The Substance" />
-      
-        <div className="actions">
-          <button>Já visto</button>
-          <button>Adicionar à lista</button>
-        </div>
+  <>
+    <div className='wrapper'>
+          
+            <Header></Header>
+            
+            <section className="hero">
 
-      </section>
+              <img className="background" src={backgroundTheSubstance}/>
+              <img className="logo" src={logoTheSubstance} alt="The Substance" />
+            
+              <div className="actions">
+                <button>Já visto</button>
+                <button>Adicionar à lista</button>
+              </div>
 
-      <section>
-        <h2>CARTAZ</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi commodi inventore, eligendi ducimus magnam iure nulla laborum, perspiciatis, quaerat placeat cupiditate expedita praesentium. Qui voluptatibus consequuntur quis omnis adipisci?
-          Fuga ad odio impedit quae error nisi, omnis nesciunt eveniet optio corporis suscipit dolore quaerat accusantium harum eum dolor laboriosam quidem molestias aliquid asperiores ipsum libero ducimus non. Voluptate, maiores!
-          Voluptatem ad, earum vitae nobis saepe nisi incidunt natus suscipit magnam aut modi libero possimus asperiores. Natus maiores alias praesentium dolorem fugit ipsam numquam voluptatem! Iste nostrum temporibus in soluta.
-          Sint aliquam exercitationem ratione molestiae modi architecto dolores praesentium excepturi sapiente nam minus quia repellendus recusandae autem nobis debitis iure corrupti quo, qui similique velit cupiditate enim rerum saepe! Aperiam?
-          Quam, natus id consectetur in ea optio voluptatem vitae maxime soluta suscipit, sed magnam facilis omnis iste laborum asperiores blanditiis? Nesciunt iste aut quae laudantium quaerat exercitationem vero eligendi cum.
-          Soluta ipsa incidunt consequuntur? Reiciendis, beatae dolorum fugit autem minima nesciunt ducimus nemo numquam totam accusamus possimus qui cupiditate in. Qui, aut. Doloribus dolore amet, pariatur libero eligendi exercitationem ea!
-          Iusto, laborum animi? Sit molestias facere omnis? Dolorem fugit, minus nisi fuga error magni recusandae dolorum aliquid iste facilis praesentium excepturi voluptatem tempore quo sed cupiditate neque? In, perferendis. Illum!
-          Dolores culpa inventore cupiditate vitae quos blanditiis eveniet molestiae doloribus illo, placeat error recusandae suscipit explicabo ducimus dignissimos et est, mollitia voluptates incidunt voluptatibus distinctio aut. Asperiores distinctio quod similique!
-          Corporis quae consequuntur, magnam ratione deleniti laboriosam perferendis nulla quidem, cum doloremque facere blanditiis eaque a amet at iure deserunt soluta doloribus. Illo, natus nostrum dolores dignissimos perspiciatis temporibus hic!
-          Aliquid optio harum distinctio in sapiente repudiandae enim. Veritatis maxime nemo mollitia accusamus quaerat voluptates reprehenderit eaque, commodi quis sit vitae distinctio nesciunt quasi debitis dolorem laboriosam magnam nulla? Excepturi!aesentium. Qui voluptatibus consequuntur quis omnis adipisci?
-          Fuga ad odio impedit quae error nisi, omnis nesciunt eveniet optio corporis suscipit dolore quaerat accusantium harum eum dolor laboriosam quidem molestias aliquid asperiores ipsum libero ducimus non. Voluptate, maiores!
-          Voluptatem ad, earum vitae nobis saepe nisi incidunt natus suscipit magnam aut modi libero possimus asperiores. Natus maiores alias praesentium dolorem fugit ipsam numquam voluptatem! Iste nostrum temporibus in soluta.
-          Sint aliquam exercitationem ratione molestiae modi architecto dolores praesentium excepturi sapiente nam minus quia repellendus recusandae autem nobis debitis iure corrupti quo, qui similique velit cupiditate enim rerum saepe! Aperiam?
-          Quam, natus id consectetur in ea optio voluptatem vitae maxime soluta suscipit, sed magnam facilis omnis iste laborum asperiores blanditiis? Nesciunt iste aut quae laudantium quaerat exercitationem vero eligendi cum.
-          Soluta ipsa incidunt consequuntur? Reiciendis, beatae dolorum fugit autem minima nesciunt ducimus nemo numquam totam accusamus possimus qui cupiditate in. Qui, aut. Doloribus dolore amet, pariatur libero eligendi exercitationem ea!
-          Iusto, laborum animi? Sit molestias facere omnis? Dolorem fugit, minus nisi fuga error magni recusandae dolorum aliquid iste facilis praesentium excepturi voluptatem tempore quo sed cupiditate neque? In, perferendis. Illum!
-          Dolores culpa inventore cupiditate vitae quos blanditiis eveniet molestiae doloribus illo, placeat error recusandae suscipit explicabo ducimus dignissimos et est, mollitia voluptates incidunt voluptatibus distinctio aut. Asperiores distinctio quod similique!
-          Corporis quae consequuntur, magnam ratione deleniti laboriosam perferendis nulla quidem, cum doloremque facere blanditiis eaque a amet at iure deserunt soluta doloribus. Illo, natus nostrum dolores dignissimos perspiciatis temporibus hic!
-          Aliquid optio harum distinctio in sapiente repudiandae enim. Veritatis maxime nemo mollitia accusamus quaerat voluptates reprehenderit eaque, commodi quis sit vitae distinctio nesciunt quas
-        </p>
-      </section>
-    </>
+            </section>
+
+            <section className='display'>
+              <h2>EM CARTAZ</h2>
+
+              <div className="cards">
+
+                <a href="file://desktop-o0mhes3/Users/Helena/Videos/Filmes%20Series/Angel's%20Egg/" target="_blank" className='card'>
+                  <img src={posterAngelsEgg}/> 
+                </a>
+
+                <a href="C:\Users\Helena\Videos\Filmes Series\Perfect.Blue.1997.JAPANESE.REMASTERED.1080p.BluRay.DDP5.1.x265.10bit-GalaxyRG265[TGx]" className='card'>
+                  <img src={posterPerfectBlue}/>
+                </a>
+
+                <a href="" className='card'>
+                  <img src={posterReflexoes}/>
+                </a>
+
+              </div>
+
+            </section>
+
+            <section className='rental'>
+              <h2>LOCADORA</h2>
+
+              <div className="boxes">
+
+                <a href="" className="box" style={ {backgroundColor: '#fff'}}>
+                  <img src={logoTheSubstance}/>
+                  <p>2024 2h 21min</p>
+                </a>
+
+                <a href="" className="box" style={ {backgroundColor: '#0b0f01'}}>
+                  <img src={logoAngelsEgg}/>
+                  <p>1985 1h 11min</p>
+                </a>
+
+                <a href="" className="box" style={ {backgroundColor: '#1f436d', color: '#fff'}}>
+                  <img src={logoPerfectBlue}/>
+                  <p>1997 1h 21min</p>
+                </a>
+
+                <a href="" className="box" style={ {backgroundColor: '#ff7616'}}>
+                  <img src={logoReflexoesDeUmLiquidificador}/>
+                  <p>2010 1h 20min</p>
+                </a>
+              </div>
+
+            </section>
+            
+      </div>
+
+      <div id="overlay"></div>
+    </> 
+  
   )
 }
 
